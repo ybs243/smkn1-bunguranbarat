@@ -1,0 +1,1 @@
+console.log('SMKN 1 Bunguran Barat - Project Dewa');
