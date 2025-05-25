@@ -1,1 +1,111 @@
-<!DOCTYPE html><html><head><title>SMKN 1 Bunguran Barat</title></head><body><h1>Welcome to the Future!</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMKN 1 Bunguran Barat - Website Dewa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: linear-gradient(to right, #1f1f1f, #3a3a3a);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #0ff;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: radial-gradient(circle at center, #0ff, #000);
+    }
+    .hero h2 {
+      font-size: 3rem;
+    }
+    .globe-container {
+      width: 100%;
+      height: 300px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/4/4f/Globe_icon.svg') no-repeat center;
+      background-size: contain;
+      animation: rotateGlobe 20s linear infinite;
+    }
+    @keyframes rotateGlobe {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    .section h3 {
+      font-size: 2rem;
+      border-bottom: 2px solid #0ff;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+    footer {
+      padding: 20px;
+      background: #111;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SMKN 1 B.Barat</h1>
+    <nav>
+      <a href="#jurusan">Jurusan</a>
+      <a href="#memori">Memori</a>
+      <a href="#ujian">Ujian</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Website Sekolah Terdepan 300 Tahun ke Depan</h2>
+    <p>Futuristik, Aman, dan Canggih</p>
+  </div>
+
+  <div class="globe-container"></div>
+
+  <section class="section" id="jurusan">
+    <h3>Jurusan</h3>
+    <ul>
+      <li>TKJ - Kelas 10, 11, 12</li>
+      <li>AKL - Kelas 10, 11, 12</li>
+      <li>DKV - Kelas 10, 11, 12</li>
+      <li>MP - Kelas 10, 11, 12</li>
+      <li>APHP - Kelas 10, 11, 12</li>
+    </ul>
+  </section>
+
+  <section class="section" id="memori">
+    <h3>Memori Sekolah</h3>
+    <p>Galeri AI, Foto Kenangan, Arsip Digital Masa Depan</p>
+  </section>
+
+  <section class="section" id="ujian">
+    <h3>Ujian Online Nasional</h3>
+    <p>Seluruh ujian dilaksanakan via sistem super aman dan dapat dimonitor oleh guru realtime.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SMKN 1 Bunguran Barat. Website Futuristik Sepanjang Zaman.</p>
+  </footer>
+</body>
+</html>
